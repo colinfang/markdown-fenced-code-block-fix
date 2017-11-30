@@ -1,0 +1,31 @@
+{
+    "name": "markdown-fenced-code-block-fix",
+    "displayName": "Markdown Fenced Code Fix",
+    "description": "Hacky fix for Markdown fenced code syntax highlighting in lists",
+    "version": "0.0.1",
+    "publisher": "colinfang",
+    "engines": {
+        "vscode": "^1.14.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "keywords": [
+        "Markdown"
+    ],
+    "contributes": {
+        "grammars": [
+            {
+                "scopeName": "markdown.fenced_code_block_fix",
+                "path": "./syntaxes/codeblock.json",
+                "injectTo": [
+                    "text.html.markdown"
+                ]
+            }
+          ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/colinfang/markdown-fenced-code-block-fix.git"
+    }
+}
